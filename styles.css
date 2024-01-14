@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(output/images/Minecraft.jpg) no-repeat center center fixed;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .logo {
+    max-width: 47%;
+    max-height: 47%;
+  }
+  
+  .logo-title {
+    font-family: Verdana;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-top: 2;
+  }
+
+  .choose-title {
+    font-family: Verdana;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(41, 41, 41, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1), 0 0 40px rgba(0, 0, 0, 0.2);
+    height: 50vh;
+    width: 50vw;
+    max-width: 350px;
+    min-width: 220px;
+  
+  }
+
+  .container-credit {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(41, 41, 41, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1), 0 0 40px rgba(0, 0, 0, 0.2);
+    height: 3vh;
+    width: 50vw;
+    max-width: 350px;
+    min-width: 220px;
+    margin-top: 20px;
+  
+  }
+  
+  input {
+    width: 94%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background-color: rgba(50, 46, 46, 0.45);
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 2.1px;
+    font-family: Verdana;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  
+  button:hover {
+    background-color: rgba(44, 51, 56, 0.75);
+  }
+  
+  h2 {
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bold;
+    color: #dc5050;
+  }
